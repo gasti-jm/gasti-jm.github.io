@@ -1,0 +1,29 @@
+header {
+    /* top: 0; */
+    position: static;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.2);
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 3px solid transparent;
+    color: rgb(56, 56, 56);
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid orange;
+    /* color: rgb(255, 136, 0); */
+}
