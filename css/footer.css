@@ -15,3 +15,7 @@ footer p {
     justify-content: center;
     height: 100px;
 }
+
+.copyright img {
+    margin-left: 25px;
+}
