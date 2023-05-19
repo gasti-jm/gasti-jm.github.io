@@ -24,6 +24,6 @@ header {
 }
 
 .menu li a:hover{
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #E8641B;
     /* color: rgb(255, 136, 0); */
 }
