@@ -3,11 +3,19 @@ main {
 }
 
 .contact {
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .transformadores {
     margin-top: 50px;
+}
+
+.servicio {
+    margin-top: 50px;
+}
+
+.servicio p {
+    text-align: center;
 }
 
 .about-us p {
