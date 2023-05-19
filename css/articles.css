@@ -55,13 +55,16 @@ article > h1 {
 
 .transformadores p {
     font-size: 4.5em;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .transformadores a {
     text-decoration: none;
-    color: #E8641B;
-    font-size: 4em;
+    color: white;
+    font-size: 2em;
+    border-radius: 60px;
+    background-color: #E8641B;
+    padding: 15px 60px;
 }
 
 .degrade {
