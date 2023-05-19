@@ -1,14 +1,10 @@
-.logo {
-    width: 200px;
-    margin: auto;
-}
-
-.logo img {
-    padding-top: 50px;
-}
-
 .presentation {
     height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
 
 .presentation h1 {
