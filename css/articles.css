@@ -16,9 +16,12 @@ main {
 
 .servicio p {
     text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    padding: 25px;
 }
 
-.about-us p {
+.distribuidora p {
     text-align: center;
     padding: 10px;
     font-size: 2em;

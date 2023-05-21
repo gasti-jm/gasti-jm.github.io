@@ -23,3 +23,11 @@ td h1 {
 table img {
     width: 150px;
 }
+
+.punta-izq {
+    border-top-left-radius: 5px;
+}
+
+.punta-der {
+    border-top-right-radius: 5px;
+}
