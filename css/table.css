@@ -1,0 +1,25 @@
+table {
+    margin: auto;
+}
+
+td {
+    background-color: white;
+    height: 150px;
+}
+
+th {
+    background-color: #E8641B;
+    /* border-radius: 5px; */
+    padding: 5px;
+    color: white;
+}
+
+td h1 {
+    padding: 20px;
+    font-size: large;
+    text-align: left;
+}
+
+table img {
+    width: 150px;
+}
