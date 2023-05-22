@@ -31,3 +31,7 @@ table img {
 .punta-der {
     border-top-right-radius: 5px;
 }
+
+.producto-size {
+    width: 80%;
+}
