@@ -1,0 +1,30 @@
+#proyects {
+    background-color: rgb(30, 30, 30);
+    height: 100vh;
+}
+
+#proyects h2 {
+    font-size: 3em;
+    padding: 30px;
+    text-align: center;
+}
+
+.proyect-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+}
+
+.section-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.proyect-row img {
+    border-radius: 20px;
+    width: 500px;
+}
