@@ -6,7 +6,8 @@ footer p {
     text-align: center;
     font-size: x-large;
     padding: 0px 25px;
-    color: #000;
+    color: #1e1e1e;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .copyright {

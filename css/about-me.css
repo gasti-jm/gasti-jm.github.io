@@ -1,0 +1,34 @@
+#about-me {
+    background-image: url("../img/about-me-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+
+    height: 50vh;
+}
+
+.about-me-effect-background {
+    background-color: rgba(30, 30, 30, 0.8);
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-effect-background h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    padding: 20px 0;
+}
+
+.about-me-effect-background p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+

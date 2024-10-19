@@ -24,3 +24,50 @@
     color: #fff;
     transition: ease 0.3s;
 }
+
+
+.button-link-green {
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+    
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 60px;
+}
+
+.button-link-green i {
+    color: #000;
+    font-style: normal;
+}
+
+.button-link-green:hover i {
+    color: #fff;
+    transition: ease 0.3s;
+}
+
+.button-link-green:hover {
+    border: 2px solid #47ff2f;
+    background-color: #2cc302;
+    color: #fff;
+    transition: ease 0.3s;
+}
+
+
+
+
+.button-contact {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1e1e1e;
+    
+    padding: 10px 25px;
+    border: 2px solid #343434;
+    border-radius: 60px;
+}
+
+.button-contact i {
+    color: #fff;
+    font-style: normal;
+}
+

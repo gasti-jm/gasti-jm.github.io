@@ -1,3 +1,35 @@
 #contact {
-    background-color: #0099ff;
+    display: flex;
+    background-color: white;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#contact h2 {
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: #1E1F22;
+}
+
+#contact p {
+    color: #1E1F22;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+.sec-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element-container {
+    margin: 5px;
 }
