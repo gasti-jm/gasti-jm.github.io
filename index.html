@@ -13,15 +13,29 @@
         <link rel="stylesheet" href="css/presentation.css">
         <link rel="stylesheet" href="css/proyects.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/buttons.css">
         <link rel="stylesheet" href="css/education.css">
+        <link rel="stylesheet" href="css/contact.css">
 
         <title>Gastón Martínez</title>
     </head>
 
 
     <body>
+        <header id="header">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#proyects">Proyectos</a></li>
+                    <li><a href="#education">Educación</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
         <div class="pres-picture-background">
             <div class="pres-background">
                 <div class="pres">
@@ -34,14 +48,14 @@
                             <p>
                                 Bienvenidos a mi portafolio!
                                 Soy programador con experiencia en desarrollo de software y resolución de problemas.
-                                Me he enfocado en aprender Java Full-Stack con distintas tecnologías como Spring Boot, SQL, y demas. <br><br>
+                                Me he enfocado en aprender Java Full-Stack con distintas tecnologías como Spring Boot, SQL, Hibernate-JPA y demas. <br><br>
                                 Estoy en constante aprendizaje y abierto a nuevos desafíos.
                             </p>
                         </div>
     
                     </div>
         
-                    <a href="#proyects" class="button-link effect-btn">Mis proyectos</a>
+                    <a href="#proyects" class="button-link effect-btn"><i class="bi bi-journal-code"> Ver proyectos</i></a>
                 </div>
     
             </div>
@@ -49,7 +63,7 @@
         
 
         <article id="proyects">
-            <h2>PROYECTOS Y EXPERIENCIA PERSONAL</h2>
+            <h2>&lt;proyectos&gt;</h2>
 
             <section class="proyect-row">
 
@@ -71,14 +85,14 @@
 
             </section>
 
-
+            
             <section class="proyect-row">
 
                 <img src="img/proyect3.png" alt="SEREELEC & DISTRIELECTRICAL GROUP">
 
                 <div class="section-column">
                     <h3>SEREELEC & DISTRIELECTRICAL GROUP</h3>
-                    <p>Pagina web diseñada únicamente con HTML, CSS y JavaScript para representar información de una empresa 
+                    <p>Pagina web desarrollada con HTML, CSS y JavaScript para representar información de una empresa 
                     dedicada a servicios y distribuciones de productos eléctricos.</p>
 
                     <a href="https://sereelec.vercel.app/" target="_blank" class="button-link">
@@ -123,6 +137,8 @@
                 </div>
 
             </section>
+
+            <h2>&lt;/proyectos&gt;</h2>
         </article>
 
         <article id="education">
@@ -130,7 +146,7 @@
                 <img src="img/utn.jpg" alt="LOGO UTN">
 
                 <div class="education-info">
-                    <h1>Educacion</h1>
+                    <h1>Educación</h1>
                     <p>
                         He estudiado la carrera de Tecnico superior en programacion en la Universidad Tecnologica Nacional Regional Delta. <br>
                         Me recibi en 2022 y fui unos de los estudiantes mas destacados de la carrera con un GBA de 9.20.
@@ -139,12 +155,14 @@
             </section>
         </article>
 
+        
 
         <footer>
             <div class="copyright">
                 <p>CopyRight © 2024 By Gastón Martínez</p>
             </div>
         </footer>  
-
+    
+        <script src="js/header-listener.js"></script>
     </body>
 </html>

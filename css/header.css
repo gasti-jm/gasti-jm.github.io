@@ -1,0 +1,35 @@
+header {
+    position: absolute;
+}
+
+#header {
+    width: 100%;
+    z-index: 10;
+}
+
+.header-effect {
+    position: fixed;
+    backdrop-filter: blur(6px);
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 3px solid transparent;
+    color: #ffffff;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid #ffffff;
+}
