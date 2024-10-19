@@ -1,0 +1,26 @@
+#education {
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.education-row {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.education-info {
+    margin: 20px;
+}
+
+.education-info h1 {
+    color: #000;
+    font-size: 2em;
+}
+
+.education-info p {
+    color: #000;
+}
