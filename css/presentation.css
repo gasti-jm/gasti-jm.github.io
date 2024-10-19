@@ -55,4 +55,31 @@
 }
 
 
+@media screen and (max-width: 970px) {
+    .pres-row {
+        flex-direction: column;
+    }
+
+    .pres-column {
+        margin: 20px;
+        width: 90%;
+    }
+
+    .pres-column h1 {
+        font-size: 1.8em;
+    }
+
+    .pres-column p {
+        padding-top: 5px;
+    }
+
+    .pres-column a {
+        margin: 0 auto;
+    }
+
+
+    .img-rounded {
+        width: 150px;
+    }
+}
 

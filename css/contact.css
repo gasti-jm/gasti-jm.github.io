@@ -1,7 +1,7 @@
 #contact {
     display: flex;
     background-color: white;
-    height: 50vh;
+    height: 30vh;
     flex-direction: column;
     align-items: center;
     align-content: center;
@@ -28,8 +28,24 @@
     align-content: center;
     justify-content: space-around;
     align-items: center;
+    margin: 35px;
 }
 
 .element-container {
     margin: 5px;
+}
+
+@media screen and (max-width: 970px) {
+    #contact {
+        height: auto;
+    }
+    
+    #contact h2 {
+        font-size: 2em;
+    }
+
+    #contact p {
+       text-align: center;
+       font-size: small;
+    }
 }

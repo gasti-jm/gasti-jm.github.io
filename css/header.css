@@ -33,3 +33,9 @@ header {
 .menu li a:hover{
     border-bottom: 3px solid #ffffff;
 }
+
+@media screen and (max-width: 970px) {
+    header {
+        display: none;
+    }
+}

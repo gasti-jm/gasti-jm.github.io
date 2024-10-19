@@ -57,17 +57,21 @@
 
 
 .button-contact {
+    display: flex; /* Cambiar a flex */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
     text-decoration: none;
     color: #fff;
     background-color: #1e1e1e;
-    
-    padding: 10px 25px;
+    width: 55px;
+    height: 55px;
     border: 2px solid #343434;
-    border-radius: 60px;
+    border-radius: 100%;
 }
 
 .button-contact i {
     color: #fff;
+    font-size: 1.7em;
     font-style: normal;
 }
 

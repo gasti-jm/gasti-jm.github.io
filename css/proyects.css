@@ -44,3 +44,34 @@
     height: 350px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 970px) {
+    #proyects {
+        padding: 10px;
+    }
+    
+    #proyects h2 {
+        padding: 15px;
+        font-size: 2em;
+    }
+
+    .proyect-row {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .proyect-row img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .section-column h3 {
+        font-size: 1.2em;
+        padding: 5px 0;
+    }
+
+    .section-column {
+        align-items: center;
+    }
+
+}

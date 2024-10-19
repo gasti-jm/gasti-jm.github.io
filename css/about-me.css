@@ -31,4 +31,27 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 970px) {
+
+    .about-me-effect-background h1 {
+        font-size: 2em;
+    }
+
+    .about-me-effect-background p {
+        text-align: center;
+        width: 90%;
+        padding: 0px 0px 20px 0px;
+        margin: 0 auto;
+    }
+
+    .about-me-effect-background {
+        height: auto;
+    }
+
+    #about-me {
+        height: auto;
+    }
+
+}
+
 

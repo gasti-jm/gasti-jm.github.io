@@ -24,3 +24,31 @@
 .education-info p {
     color: #000;
 }
+
+@media screen and (max-width: 970px) {
+    #education {
+        padding: 10px;
+    }
+    
+    .education-row {
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .education-info {
+        margin: 10px;
+    }
+
+    .education-info p {
+        text-align: center;
+    }
+
+    .education-info h1 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .education-row img {
+        width: 100%;
+    }
+}
